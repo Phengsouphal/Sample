@@ -120,11 +120,13 @@ class HomeScreen extends Component {
 export default connect(null, null)(HomeScreen)
 
 const styles = StyleSheet.create({
+
 	container: {
 		flex: 1,
 		backgroundColor: '#f2f2f2',
 		justifyContent: 'flex-start',
 	},
+
 
 })
 

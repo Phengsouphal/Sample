@@ -14,6 +14,7 @@ import CardScreen from '../Containers/CardScreen'
 
 
 import ListScreen from '../Containers/ListScreen'
+import ListScreenTow from '../Containers/ListScreenTow'
 
 import FormScreen from '../Containers/FormScreen'
 
@@ -34,7 +35,10 @@ class NavigationRouter extends Component {
                         <Scene onEnter={() => this.onEnter(true, true, '', 'HomeSwipeScreen')} key="HomeSwipeScreen"  component={HomeSwipeScreen} hideNavBar={true} />
 
                         <Scene onEnter={() => this.onEnter(true, true, '', 'CardScreen')} key="CardScreen"  component={CardScreen} hideNavBar={true} />
+                       
                         <Scene onEnter={() => this.onEnter(true, true, '', 'ListScreen')}  key="ListScreen"  component={ListScreen} hideNavBar={true} />
+                        <Scene onEnter={() => this.onEnter(true, true, '', 'ListScreenTow')} initial={true} key="ListScreenTow"  component={ListScreenTow} hideNavBar={true} />
+                       
                         <Scene onEnter={() => this.onEnter(true, true, '', 'FormScreen')}  key="FormScreen"  component={FormScreen} hideNavBar={true} />
 
                     </Scene>
