@@ -27,7 +27,7 @@ class FormScreen extends Component {
 	render() {
 		const { username } = this.state
 		return (
-			<ScrollView style={{backgroundColor: '#f2f2f2',}}>
+			<ScrollView style={{ backgroundColor: '#f2f2f2', }}>
 				<View style={[styles.container, { paddingHorizontal: 30, }]}>
 
 
@@ -59,16 +59,14 @@ class FormScreen extends Component {
 					</View>
 					<Text style={{ marginTop: 20, textAlign: 'center', width: '100%', fontSize: 12, lineHeight: 20 }}>
 						By clicking Sign up you agree to the our Terms and Conditions
-				</Text>
+					</Text>
 
-					<View style={{ marginTop: 20, height: '20%', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'row', }}>
+					<View style={{ marginTop: 100, justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'row', }}>
 						<Text style={{ marginRight: 10, }}>Already have an account?</Text>
 						<TouchableOpacity>
 							<Text style={{ fontWeight: 'bold', color: '#e60000' }}>Log in</Text>
 						</TouchableOpacity>
 					</View>
-
-
 
 				</View>
 			</ScrollView>
